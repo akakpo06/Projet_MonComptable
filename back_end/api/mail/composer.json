@@ -1,0 +1,17 @@
+{
+    "name": "moncomptable/mailer",
+    "autoload": {
+        "psr-4": {
+            "Moncomptable\\Mailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "akakpo06",
+            "email": "godwinakakpo023@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
