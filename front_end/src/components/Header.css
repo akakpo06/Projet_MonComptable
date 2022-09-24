@@ -1,0 +1,88 @@
+.landing-page-navbar{
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+    background-color: #2151F1;
+}
+.logo-container span{
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.navlinks-container{
+    margin-left: 30%;
+}
+.navlinks-container ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+.navlinks-container li{
+    padding: 0% 8%;
+    font-size: 1.1rem;
+}
+.navlinks-container a,
+.navlinks-container Link span{
+    color: white;
+    text-decoration: none;
+}
+header .buttons-container{
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-container button{
+    width: 120px;
+    height: 40px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-first-type{
+    background-color: #2151F1;
+    color: white;
+    border: 0.2px solid white;
+}
+.btn-second-type{
+    background-color: white;
+    color: #2151F1;
+    border: none;
+}
+.Welcome-container{
+    position: relative;
+    background-image: url(../assets/consejos-sobrevivir-cuesta-enero-810x541-1-737x415.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 88.5vh;
+    display: flex;
+    align-items: center;
+}
+.Welcome-container::after{
+    position: absolute;
+    content: "";
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.6;
+}
+.Welcome-text{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+}
+.principal-title{
+    display: block;
+    font-size: 6rem;
+    text-align: center;
+}
+.secondary-title{
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+}

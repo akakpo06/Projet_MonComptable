@@ -1,0 +1,121 @@
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 5;
+}
+.modal-container::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+}
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 600px;
+}
+.left-box-container{
+    background-color: #2151F1;
+    width: 50%;
+    height: 100%;
+}
+.right-box-container{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 91%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-box{
+    width: 60%;
+}
+.contact-modal{
+    width: 100%;
+    height: 90%;
+}
+form{
+    text-align: center;
+}
+form span{
+    text-align: left;
+}
+.form-title{
+    color: #2151F1;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.form-container{
+    text-align: center;
+}
+.form-container label{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.contact-modal label{
+    display: block;
+}
+.contact-modal label *{
+    text-align: left;
+    display: block;
+}
+.contact-modal label span{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.name-surname-container{
+    display: flex;
+    justify-content: space-between;
+}
+input,
+textarea,
+select{
+    width: 500px;
+    height: 60px;
+    font-size: 1rem;
+    border: 1px solid rgb(96, 96, 96);
+    border-radius: 10px;
+    padding-left: 1%;
+}
+.name-surname-container input{
+    width: 200px;
+    padding-left: 2%;
+}
+textarea{
+    height: 150px;
+}
+a{
+    display: block;
+    color: #2151F1;
+    text-decoration: underline;
+    margin-top: 2%;
+}
+form button{
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: #2151F1;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.error-container{
+    color: red;
+}

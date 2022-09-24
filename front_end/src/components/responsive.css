@@ -1,0 +1,388 @@
+/* responsive tablet */
+@media only screen and (max-width: 700px) {
+    section{
+        margin-bottom: 10%;
+    }
+    header{
+        height: 75vh;
+    }
+    .landing-page-navbar{
+        display: flex;
+        padding: 1% 2%;
+        flex-direction: column;
+    }
+    .logo-container{
+        margin-bottom: 2%;
+    }
+    header .navlinks-container{
+        margin: 0%;
+        width: 100%;
+    }
+    header .navlinks-container li{
+        font-size: 1.1rem;
+    }
+    header .navlinks-container ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    header .buttons-container{
+        width: 80%;
+        padding: 0% 10%;
+        margin-bottom: 2%;
+    }
+    header .buttons-container button{
+        width: 80px;
+        height: 30px;
+        font-size: 0.7rem;
+    }
+    .Welcome-container{
+        height: 80%;
+    }
+    .principal-title{
+        font-size: 2rem;
+    }
+    .secondary-title{
+        font-size: 1.3rem;
+    }
+    .section-title-container{
+        margin-bottom: 2%;
+    }
+    .section-title-container span{
+        font-size: 2.5rem;
+    }
+    .section-title-container hr{
+        height: 1.2px;
+        width: 100px;
+    }
+    .cards-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card{
+        width: 92%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 8%;
+    }
+    .card-icon-container{
+        width: 140px;
+        height: 90px;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+    .testimony-box{
+        width: 75%;
+        margin: 0%;
+    }
+    .testimony-text{
+        padding: 0% 3%;
+        font-size: 0.8rem;
+    }
+    .testimony-quotes{
+        display: flex;
+        padding: 5%;
+    }
+    .arrow-container{
+        width: 60px;
+        height: 35px;
+    }
+    .quoter{
+        position: static;
+        width: 150px;
+        height: 15px;
+    }
+    .quoter .close{
+        position: relative;
+        bottom: 0px;
+    }
+    .testifier .name{
+        font-size: 1.3rem;
+    }
+    .testifier .title{
+        font-size: 0.8rem;
+    }
+    .partners{
+        padding: 5% 0%;
+    }
+    .partner-logo{
+        width: 80px;
+        height: 90px;
+    }
+    .partner-logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .informations{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40% 40% 18%;
+        column-gap: 2%;
+        row-gap: 0%;
+    }
+    .description-container{
+        grid-column: 1/4;
+        grid-row: 1;
+        margin-bottom: 2%;
+        width: 96%;
+    }
+    .description-container .title{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .services .title,
+    .contact-infos .title{
+        font-size: 1.5rem;
+    }
+    .services{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .contact-infos{
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+    .description-container .text{
+        padding: 0% 2%;
+    }
+    .description-container .text span{
+        font-size: 0.8rem;
+    }
+    .services .line,
+    .contact-infos .line{
+        font-size: 0.8rem;
+    }
+    .line div:last-child{
+        width: 80%;
+    }
+    .icon-container,
+    .social-network{
+        width: 20px;
+        height: 20px;
+    }
+    .contacts-social-networks-container{
+        grid-column: 1/4;
+        grid-row: 3;
+        width: 96%;
+    }
+    .contact-button-container button{
+        width: 60px;
+        height: 20px;
+        font-size: 0.5rem;
+    }
+    .copyright-container hr{
+        width: 100px;
+        height: 0.01px;
+    }
+    .copyright-container div{
+        padding: 0%;
+    }
+    .copyright-container span{
+        font-size: 0.6rem;
+    }
+    .buttons-container button{
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1500px) {
+    section{
+        margin-bottom: 10%;
+    }
+    header{
+        height: 75vh;
+    }
+    .landing-page-navbar{
+        display: flex;
+        padding:  1% 1% 5% 1%;
+        flex-direction: column;
+    }
+    .logo-container{
+        font-size: 2rem;
+        margin-bottom: 1%;
+    }
+    .navlinks-container{
+        margin: 0%;
+        width: 100%;
+    }
+    .navlinks-container ul{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .navlinks-container li{
+        font-size: 1.5rem;
+    }
+    header .buttons-container{
+        width: 80%;
+        padding: 0% 10%;
+        margin-bottom: 2.5%;
+    }
+    header .buttons-container button{
+        width: 90px;
+        height: 35px;
+        font-size: 0.85rem;
+    }
+    .Welcome-container{
+        height: 80%;
+    }
+    .principal-title{
+        font-size: 3rem;
+    }
+    .secondary-title{
+        font-size: 1.8rem;
+    }
+    .section-title-container{
+        margin-bottom: 2%;
+    }
+    .section-title-container span{
+        font-size: 3rem;
+    }
+    .section-title-container hr{
+        height: 1.2px;
+        width: 100px;
+    }
+    .cards-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card{
+        width: 92%;
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 8%;
+    }
+    .card-icon-container{
+        width: 180px;
+        height: 100px;
+    }
+    .card-text{
+        font-size: 1.5rem;
+    }
+    .testimony-box{
+        width: 75%;
+        margin: 0%;
+    }
+    .testimony-text{
+        padding: 0% 3%;
+        font-size: 1.2rem;
+    }
+    .testimony-quotes{
+        display: flex;
+        padding: 5%;
+    }
+    .arrow-container{
+        width: 80px;
+        height: 50px;
+    }
+    .quoter{
+        position: static;
+        width: 180px;
+        height: 25px;
+    }
+    .quoter .close{
+        position: relative;
+        bottom: 0px;
+    }
+    .testifier .name{
+        font-size: 1.5rem;
+    }
+    .testifier .title{
+        font-size: 1rem;
+    }
+    .partners{
+        padding: 5% 0%;
+    }
+    .partner-logo{
+        width: 80px;
+        height: 90px;
+    }
+    .partner-logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .informations{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 40% 40% 18%;
+        column-gap: 2%;
+        row-gap: 0%;
+    }
+    .description-container{
+        grid-column: 1/4;
+        grid-row: 1;
+        margin-bottom: 2%;
+        width: 96%;
+    }
+    .description-container .title{
+        font-size: 1.8rem;
+    }
+    .services .title,
+    .contact-infos .title{
+        font-size: 1.8rem;
+    }
+    .services{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .contact-infos{
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+    .description-container .text{
+        padding: 0%;
+    }
+    .description-container .text span{
+        font-size: 1rem;
+    }
+    /* .services .line,
+    .contact-infos .line{
+        font-size: 1.2rem;
+    }
+    .line div:last-child{
+        width: 80%;
+    } */
+    .icon-container,
+    .social-network{
+        width: 30px;
+        height: 30px;
+    }
+    .contacts-social-networks-container{
+        grid-column: 1/4;
+        grid-row: 3;
+        width: 96%;
+    }
+    .contact-button-container button{
+        width: 90px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+    .copyright-container hr{
+        width: 200px;
+        background-color: white;
+        height: 1px;
+    }
+    .copyright-container div{
+        padding: 0%;
+    }
+    .copyright-container span{
+        font-size: 0.9rem;
+    }
+}

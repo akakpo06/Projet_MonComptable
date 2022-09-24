@@ -1,0 +1,22 @@
+.double-input-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.double-input-container label{
+    margin-bottom: 3%;
+}
+.double-input-container span{
+    display: block;
+    margin-bottom: 1%;
+}
+.amount-container{
+    margin: 0% 15.5% 2%;
+}
+.amount-container span{
+    font-size: 3rem;
+}
+.form-buttons-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 25%;
+}

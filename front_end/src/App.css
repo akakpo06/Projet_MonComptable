@@ -1,0 +1,50 @@
+section,header{
+  margin-bottom: 3%;
+}
+.section-title-container{
+  color: #2151F1;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.section-title-container hr{
+  width: 150px;
+  color: #2151F1;
+  height: 2px;
+  background-color: #2151F1;
+  margin-top: 10px;
+}
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 5%;
+}
+.partners-sec{
+  margin: 0%;
+}
+.partners{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: rgb(0, 0, 0) 1px 1px 10px;
+  background-color: white;
+}
+.partner-logo{
+  width: 200px;
+}
+.partner-logo img{
+  width: 100%;
+}
+button{
+  cursor: pointer;
+}
+button:hover{
+  transform: scale(1.1);
+}
+Link span,
+a{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

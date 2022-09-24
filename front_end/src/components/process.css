@@ -1,0 +1,48 @@
+.return-state-container{
+    display: flex;
+    padding: 2% 5%;
+}
+.return-button-container button{
+    border: none;
+    background-color: inherit;
+}
+.state-container{
+    margin: auto;
+    display: flex;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    border: 2px solid #2151F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-line{
+    position: relative;
+    margin-right: 122px;
+}
+.circle-line::after{
+    position: absolute;
+    content: "";
+    width: 125px;
+    height: 2px;
+    background-color: #2151F1;
+    top: 50%;
+    right: -125px;
+    margin-top: -2px;
+}
+.circle span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #2151F1;
+    font-weight: bold;
+}
+#done{
+    background-color: #2151F1;
+}
+#done span{
+    color: white;
+}

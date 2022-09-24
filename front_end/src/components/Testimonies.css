@@ -1,0 +1,55 @@
+section{
+    margin-bottom: 10%;
+}
+.arrow-container{
+    width: 200px;
+    height: 200px;
+}
+.arrow-container img,
+.quoter img{
+    width: 100%;
+    height: 100%;
+}
+.testimony-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-container.right img{
+    transform: rotate(180deg);
+}
+.testimony-box{
+    width: 50%;
+    margin: 0% 5%;
+    box-shadow: rgb(224, 224, 224) 1px 1px 100px;
+    padding: 1% 2%;
+}
+.quoter{
+    position: relative;
+    top: 50px;
+    width: 150px;
+    height: 100px;
+}
+.quoter.close{
+    transform: rotate(180deg);
+    left: 85%;
+    top: -50px;
+}
+.testimony-text{
+    padding: 0% 18%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.testifier{
+    margin: -5% 0% 0% 5%;
+}
+.testifier span{
+    display: block;
+    font-weight: bold;
+}
+.testifier .name{
+    font-size: 2rem;
+}
+.testifier .title{
+    font-style: italic;
+}
